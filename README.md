@@ -42,7 +42,7 @@ Next install 'evtest', it's in the repositories:
 
     apt-get install evtest
 
-as root run 'evtest' with the event handler you located above:
+As root, run 'evtest' with the event handler you located above:
 
     evtest /dev/input/event5
 
