@@ -16,6 +16,3 @@ clone this repository into your some directory, build it, and install it:
     cd pine64-gt9xxf_ts
     make
     sudo make install
-
-You'll need to manually load the module on reboot. Add "gt9xxf_ts" (no quotes) to /etc/modules and reboot.
-
