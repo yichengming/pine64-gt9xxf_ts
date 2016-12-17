@@ -1,7 +1,7 @@
 # pine64-gt9xxf_ts
 Pine64 touchscreen driver for debian linux
 
-Touchscreen touch driver for Debian linux on Pine64. longsleep's Linux kernel doesn't include this driver, so you need to compile it yourself seperately.
+Touchscreen touch driver for Debian linux on Pine64. longsleep's Linux kernel doesn't include this driver, so you need to compile it yourself separately.
 
 I recommend you longleep's kernel first. Just use his upgrade scripts:
 
