@@ -15,7 +15,7 @@ clone this repository into your some directory, build it, and install it:
     git clone https://github.com/atomicmooseca/pine64-gt9xxf_ts
     cd pine64-gt9xxf_ts
     make
-    make install
+    sudo make install
 
 You'll need to manually load the module on reboot. Add "gt9xxf_ts" (no quotes) to /etc/modules and reboot.
 
