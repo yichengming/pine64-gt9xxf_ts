@@ -10,7 +10,7 @@ I recommend you longleep's kernel first. Just use his upgrade scripts:
 
 then reboot.
 
-clone this repository into your some directory, build it, and install it:
+clone this repository into some directory, build it, and install it:
 
     git clone https://github.com/atomicmooseca/pine64-gt9xxf_ts
     cd pine64-gt9xxf_ts
