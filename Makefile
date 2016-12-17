@@ -15,6 +15,7 @@ install:
 	@mkdir -p -m 775 /lib/modules/$(shell uname -r)/kernel/drivers/input/touchscreen/gt9xxf
 	@cp gt9xxf_ts.ko /lib/modules/$(shell uname -r)/kernel/drivers/input/touchscreen/gt9xxf
 	@depmod -a
+	@grep -q -F 'gt9xxf_ts' /etc/modules || echo 'gt9xxf_ts' >> /etc/modules
 
 clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
